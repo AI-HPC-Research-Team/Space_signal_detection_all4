@@ -21,7 +21,7 @@ Our model is developed based on [SpeechBrain](https://speechbrain.github.io/) to
 
 ## Results
 The architecture of the model is shown below:
-![network|300](images/network.pdf)
+![network|300](images/network.png)
 
 ## Citation
 Please cite the following papers if you find the code useful:
