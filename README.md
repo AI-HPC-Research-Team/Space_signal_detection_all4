@@ -1,5 +1,7 @@
 # Space-based gravitational wave signal detection and extraction with deep neural network
 
+This is the official repository for the paper "Space-based Gravitational Wave Signal Detection and Extraction with Deep Neural Network." The model is developed using the PyTorch framework. The goal of this repository is to provide a comprehensive guide to the implementation of the model and to make the code easily accessible for others to use and build upon.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/MIT) [![arXiv](https://img.shields.io/badge/arXiv-2207.07414-red?style=for-the-badge&logo=appveyor)](https://arxiv.org/abs/2207.07414)
 
 ## Introduction
@@ -80,8 +82,7 @@ If you find our code useful, please consider citing the following papers:
 	publisher = {American Physical Society ({APS})},
 	volume = {104},
 	number = {6},
-	author = {Michael L. Katz and Alvin J.{\hspace{0.167em}
-}K. Chua and Lorenzo Speri and Niels Warburton and Scott A. Hughes},
+	author = {Michael L. Katz and Alvin J.{\hspace{0.167em}}K. Chua and Lorenzo Speri and Niels Warburton and Scott A. Hughes},
 	title = {Fast extreme-mass-ratio-inspiral waveforms: New tools for millihertz gravitational-wave data analysis},
 	journal = {Physical Review D}
 }
