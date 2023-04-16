@@ -1,6 +1,8 @@
 # Space-based Gravitational Wave Signal Detection and Extraction with Deep Neural Network
 
+<p align="justify">
 This is the official repository for the paper "Space-based Gravitational Wave Signal Detection and Extraction with Deep Neural Network." The model is developed using the PyTorch framework. The goal of this repository is to provide a comprehensive guide to the implementation of the model and to make the code easily accessible for others to use and build upon.
+</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/MIT) [![arXiv](https://img.shields.io/badge/arXiv-2207.07414-red?style=for-the-badge&logo=appveyor)](https://arxiv.org/abs/2207.07414)
 
@@ -67,9 +69,9 @@ If you find our code useful, please consider citing the following papers:
 
 ## Reference
 
-We would like to express our gratitude to the following repositories for their invaluable contributions to this work: 
+We would like to express our gratitude to the following repositories for their invaluable contributions to this work:
 
 - [SpeechBrain](https://speechbrain.github.io/)
-- [FastEMRIWaveform](https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms) 
+- [FastEMRIWaveform](https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms)
 - [cnn_matchfiltering](https://github.com/hagabbar/cnn_matchfiltering)
 - [lfi-gw](https://github.com/stephengreen/lfi-gw)
