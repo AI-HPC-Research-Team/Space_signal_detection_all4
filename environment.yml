@@ -1,0 +1,55 @@
+name: base
+channels:
+  - local
+  - conda-forge
+dependencies:
+  - astropy-healpix=0.6=py38h6c62de6_1
+  - gwdatafind=1.0.4=pyh9f0ad1d_1
+  - gwosc=0.6.1=pyhd8ed1ab_0
+  - gwpy=2.1.2=pyhd8ed1ab_0
+  - gwtools=1.0.9=pyhd8ed1ab_0
+  - h5py=3.6.0=nompi_py38hfbb2109_100
+  - hdf5=1.12.1=nompi_h2750804_100
+  - lalsimulation=3.0.0=py38haea4125_2
+  - ligo-common=1.0.4=py_0
+  - ligo-gracedb=2.7.5=pyhd8ed1ab_0
+  - ligo-segments=1.4.0=py38h497a2fe_1
+  - ligo.skymap=0.6.0=py38h1e9c115_0
+  - ligotimegps=2.0.1=py_0
+  - numba=0.52.0=py38h51da96c_0
+  - pycbc=1.16.11=py38he5e4c54_1
+  - python=3.8.10=h49503c6_1_cpython
+  - python-dateutil=2.8.2=pyhd8ed1ab_0
+  - python-lal=7.1.3=fftw_py38h916f30c_104
+  - python-lalburst=1.5.9=py38hb2fb00f_1
+  - python-lalframe=1.5.5=py38hff97c14_1
+  - python-lalinspiral=2.0.3=py38h6c62de6_0
+  - python-lalmetaio=2.0.3=py38h6c62de6_0
+  - python-lalsimulation=3.0.0=py38hff97c14_2
+  - python-libarchive-c=3.1=py38h578d9bd_0
+  - python-ligo-lw=1.7.1=py38h497a2fe_2
+  - python-pegasus-wms=5.0.0=hd8ed1ab_0
+  - typer=0.3.2=pyhd8ed1ab_0
+  - pip:
+    - asteroid-filterbanks==0.4.0
+    - astropy==4.3
+    # - bilby==1.1.4
+    - flake8==3.7.9
+    - matplotlib==3.4.3
+    - numpy==1.21.4
+    - pandas==1.3.4
+    - psd==1.5.2
+    - rich==13.3.3
+    - scikit-learn==0.24.2
+    - seaborn==0.11.2
+    - speechbrain==0.5.11
+    - torch==1.10.1
+    - torch-optimizer==0.1.0
+    - torchaudio==0.10.1
+    - torchmetrics==0.6.2
+    - torchsummary==1.5.1
+    - torchtext==0.11.1
+    - torchvision==0.11.0a0
+    - tqdm==4.62.2
+    - yapf==0.32.0
+prefix: /opt/conda
