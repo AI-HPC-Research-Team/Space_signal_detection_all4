@@ -1,4 +1,4 @@
-# Space-based gravitational wave signal detection and extraction with deep neural network
+# Space-based Gravitational Wave Signal Detection and Extraction with Deep Neural Network
 
 This is the official repository for the paper "Space-based Gravitational Wave Signal Detection and Extraction with Deep Neural Network." The model is developed using the PyTorch framework. The goal of this repository is to provide a comprehensive guide to the implementation of the model and to make the code easily accessible for others to use and build upon.
 
@@ -63,27 +63,13 @@ If you find our code useful, please consider citing the following papers:
   archivePrefix={arXiv},
   primaryClass={gr-qc}
 }
-
-@misc{speechbrain,
-  title={{SpeechBrain}: A General-Purpose Speech Toolkit},
-  author={Mirco Ravanelli and Titouan Parcollet and Peter Plantinga and Aku Rouhe and Samuele Cornell and Loren Lugosch and Cem Subakan and Nauman Dawalatabad and Abdelwahab Heba and Jianyuan Zhong and Ju-Chieh Chou and Sung-Lin Yeh and Szu-Wei Fu and Chien-Feng Liao and Elena Rastorgueva and François Grondin and William Aris and Hwidong Na and Yan Gao and Renato De Mori and Yoshua Bengio},
-  year={2021},
-  eprint={2106.04624},
-  archivePrefix={arXiv},
-  primaryClass={eess.AS},
-  note={arXiv:2106.04624}
-}
-
-@article{Katz_2021,
-	doi = {10.1103/physrevd.104.064047},
-	url = {https://doi.org/10.1103%2Fphysrevd.104.064047},
-	year = 2021,
-	month = {sep},
-	publisher = {American Physical Society ({APS})},
-	volume = {104},
-	number = {6},
-	author = {Michael L. Katz and Alvin J.{\hspace{0.167em}}K. Chua and Lorenzo Speri and Niels Warburton and Scott A. Hughes},
-	title = {Fast extreme-mass-ratio-inspiral waveforms: New tools for millihertz gravitational-wave data analysis},
-	journal = {Physical Review D}
-}
 ```
+
+## Reference
+
+We would like to express our gratitude to the following repositories for their invaluable contributions to this work: 
+
+- [SpeechBrain](https://speechbrain.github.io/)
+- [FastEMRIWaveform](https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms) 
+- [cnn_matchfiltering](https://github.com/hagabbar/cnn_matchfiltering)
+- [lfi-gw](https://github.com/stephengreen/lfi-gw)
