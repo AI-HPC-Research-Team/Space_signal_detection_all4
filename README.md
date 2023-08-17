@@ -1,16 +1,29 @@
 # Space-based Gravitational Wave Signal Detection and Extraction with Deep Neural Network
 
 <p align="justify">
-This is the official repository for the paper "Space-based Gravitational Wave Signal Detection and Extraction with Deep Neural Network." The model is developed using the PyTorch framework. The goal of this repository is to provide a comprehensive guide to the implementation of the model and to make the code easily accessible for others to use and build upon.
+Welcome to the official repository for our paper titled "Space-based Gravitational Wave Signal Detection and Extraction with Deep Neural Network". You can read the open-access article at <a href="https://www.nature.com/articles/s42005-023-01334-6">https://www.nature.com/articles/s42005-023-01334-6</a>. We developed the model using the PyTorch framework. Our aim with this repository is not only to share our implementation but also to provide a comprehensive guide, ensuring it's user-friendly and easy for others to build upon.
 </p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/MIT) [![arXiv](https://img.shields.io/badge/arXiv-2207.07414-red?style=for-the-badge&logo=appveyor)](https://arxiv.org/abs/2207.07414)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/MIT) 
+[![arXiv](https://img.shields.io/badge/arXiv-2207.07414-red?style=for-the-badge&logo=appveyor)](https://arxiv.org/abs/2207.07414) 
+[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs42005.023.01334.6-blue?style=for-the-badge&logo=appveyor)](https://www.nature.com/articles/s42005-023-01334-6)
 
 ## Introduction
 
 <p align="justify">
 Space-based gravitational wave (GW) detectors will be able to observe signals from sources that are otherwise nearly impossible from current ground-based detection. Consequently, the well established signal detection method, matched filtering, will require a complex template bank, leading to a computational cost that is too expensive in practice. Here, we develop a high-accuracy GW signal detection and extraction method for all space-based GW sources. As a proof of concept, we show that a science-driven and uniform multi-stage deep neural network can identify synthetic signals that are submerged in Gaussian noise. Our method has more than 99% accuracy for signal detection of various sources while obtaining at least 95% similarity compared with target signals. We further demonstrate the interpretability and strong generalization behavior for several extended scenarios.
 </p>
+
+## Result
+
+Showcase of the denoise performance of different type of GW waveform:
+<object data="image/fig7.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="image/fig7.pdf">
+        <p>This browser does not support PDFs.</p>
+    </embed>
+</object>
+<!-- ![network|300](images/ldc2a-denoise.png) -->
 
 ## Getting started
 
@@ -57,14 +70,18 @@ python train_se_mlp_new.py se-mlp.yaml
 If you find our code useful, please consider citing the following papers:
 
 ```bibtex
-@misc{zhao2022spacebased,
-  title={Space-based gravitational wave signal detection and extraction with deep neural network},
-  author={Tianyu Zhao and Ruoxi Lyu and Zhixiang Ren and He Wang and Zhoujian Cao},
-  year={2022},
-  eprint={2207.07414},
-  archivePrefix={arXiv},
-  primaryClass={gr-qc}
+@article{zhao_space-based_2023,
+  title = {Space-Based Gravitational Wave Signal Detection and Extraction with Deep Neural Network},
+  author = {Zhao, Tianyu and Lyu, Ruoxi and Wang, He and Cao, Zhoujian and Ren, Zhixiang},
+  year = {2023},
+  month = aug,
+  journal = {Communications Physics},
+  volume = {6},
+  number = {1},
+  pages = {212},
+  doi = {10.1038/s42005-023-01334-6},
 }
+
 ```
 
 ## Reference

@@ -43,7 +43,7 @@ class Separation(sb.Brain):
         mix_w = torch.tanh(mix_w).permute(0, 2, 1)
         est_mask = self.hparams.MaskNet(mix_w)
         mix_w = torch.stack([mix_w] * self.hparams.num_spks)
-        sep_h = est_mask
+        sep_h = est_mask * mix_w
 
         est_source = torch.cat(
             [self.hparams.Decoder(sep_h[i].permute(0, 2, 1)) for i in range(self.hparams.num_spks)],
