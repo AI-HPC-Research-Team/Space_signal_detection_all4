@@ -58,7 +58,7 @@ noise_hdf5: pure-noise-dataset-file-name
 Finally, train the model by running the following command in your terminal:
 
 ```bash
-python train_se_mlp_new.py se-mlp.yaml
+python train_se_mlp.py se-mlp.yaml
 ```
 
 ## Model Architecture
