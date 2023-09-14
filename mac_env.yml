@@ -17,7 +17,7 @@ dependencies:
     - astropy
     - flake8
     - matplotlib
-    - numpy==1.21.4
+    - numpy
     - pandas
     - psd
     - pycbc

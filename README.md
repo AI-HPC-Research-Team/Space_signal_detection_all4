@@ -5,7 +5,9 @@ Welcome to the official repository for our paper at <a href="https://www.nature.
 </p>
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/MIT)  [![arXiv](https://img.shields.io/badge/arXiv-2207.07414-red?style=for-the-badge&logo=appveyor)](https://arxiv.org/abs/2207.07414)  [![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs42005.023.01334.6-blue?style=for-the-badge&logo=appveyor)](https://www.nature.com/articles/s42005-023-01334-6)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/MIT)  
+[![arXiv](https://img.shields.io/badge/arXiv-2207.07414-red?style=for-the-badge&logo=appveyor)](https://arxiv.org/abs/2207.07414)  
+[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs42005.023.01334.6-blue?style=for-the-badge&logo=appveyor)](https://www.nature.com/articles/s42005-023-01334-6)
 
 ## Introduction
 
@@ -32,7 +34,10 @@ Space-based gravitational wave (GW) detectors will be able to observe signals fr
 Our model is developed on top of the [SpeechBrain](https://speechbrain.github.io/) toolkit. To set up the environment and install necessary dependencies, run the following command in your terminal:
 
 ```bash
+# For Linux
 conda env create -f environment.yml
+# For macOS
+conda env create -f mac_env.yml 
 ```
 
 Additionally, you need to install the [FastEMRIWaveform](https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms) package to generate the EMRI dataset. Follow the instructions provided on their repository to complete the installation.
@@ -79,7 +84,6 @@ If you find our code useful, please consider citing the following papers:
   pages = {212},
   doi = {10.1038/s42005-023-01334-6},
 }
-
 ```
 
 ## Reference
