@@ -4,10 +4,13 @@
 Welcome to the official repository for our paper at <a href="https://www.nature.com/articles/s42005-023-01334-6">https://www.nature.com/articles/s42005-023-01334-6</a>. We developed the model using the PyTorch framework. Our aim with this repository is not only to share our implementation but also to provide a comprehensive guide, ensuring it's user-friendly and easy for others to build upon.
 </p>
 
+<center>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/MIT)  
-[![arXiv](https://img.shields.io/badge/arXiv-2207.07414-red?style=for-the-badge&logo=appveyor)](https://arxiv.org/abs/2207.07414)  
-[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs42005.023.01334.6-blue?style=for-the-badge&logo=appveyor)](https://www.nature.com/articles/s42005-023-01334-6)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/MIT)
+  [![arXiv](https://img.shields.io/badge/arXiv-2207.07414-red?style=for-the-badge&logo=appveyor)](https://arxiv.org/abs/2207.07414)
+  [![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs42005.023.01334.6-blue?style=for-the-badge&logo=appveyor)](https://www.nature.com/articles/s42005-023-01334-6)
+
+</center>
 
 ## Introduction
 

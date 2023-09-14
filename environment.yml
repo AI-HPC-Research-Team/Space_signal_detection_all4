@@ -12,15 +12,15 @@ dependencies:
   - hdf5
   - numba
   - pip
+  - pycbc
   - python=3.8.10
   - pip:
     - astropy
     - flake8
     - matplotlib
-    - numpy==1.21.4
+    - numpy
     - pandas
     - psd
-    - pycbc
     - rich
     - scikit-learn
     - seaborn
